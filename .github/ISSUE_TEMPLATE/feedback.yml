@@ -1,0 +1,50 @@
+name: Feedback
+description: Report a bug or suggest an idea for GraphPaper
+title: "[Feedback] "
+labels: ["feedback"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for helping improve GraphPaper! A few quick fields and you're done.
+        If you got here from the app's **Feedback** button, the environment box is
+        pre-filled for you — please leave it as-is.
+  - type: dropdown
+    id: type
+    attributes:
+      label: Type
+      description: What kind of feedback is this?
+      options:
+        - Bug
+        - Idea / feature request
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: what
+    attributes:
+      label: What's up?
+      description: For a bug, tell us what happened and what you expected instead.
+        For an idea, tell us what you'd like to do and why.
+      placeholder: Describe it here…
+    validations:
+      required: true
+  - type: textarea
+    id: repro
+    attributes:
+      label: Steps to reproduce (bugs only)
+      description: How can we make it happen? Leave blank for ideas.
+      placeholder: |
+        1. …
+        2. …
+        3. …
+    validations:
+      required: false
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment
+      description: Auto-filled by the app's Feedback button. Helps us reproduce.
+      placeholder: theme, zoom, object count, browser…
+    validations:
+      required: false

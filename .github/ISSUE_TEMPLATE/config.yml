@@ -1,0 +1,3 @@
+# Keep the "Open a blank issue" escape hatch for power users, but steer most
+# people through the structured Feedback form above.
+blank_issues_enabled: true
