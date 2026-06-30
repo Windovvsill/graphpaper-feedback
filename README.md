@@ -1,6 +1,6 @@
 # GraphPaper — Feedback
 
-This is the public feedback tracker for **GraphPaper**, a browser-based
+This is the public feedback tracker for **[GraphPaper](https://graphpaper.ink)**, a browser-based
 graph-paper / drawing canvas.
 
 Found a bug? Have a feature idea? **[Open an issue →](https://github.com/Windovvsill/graphpaper-feedback/issues/new/choose)**
